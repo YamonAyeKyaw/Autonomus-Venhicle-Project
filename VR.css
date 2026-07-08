@@ -1,0 +1,114 @@
+*
+{
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+	
+}
+h2
+{
+	text-align: center;	
+	color: #175a8a;
+}
+body	
+{
+	background-color:white;
+	background-repeat: repeat-x;
+	color: #175a8a;
+	font-size:10px;
+	background-attachment: fixed;	
+	border:10px black double;
+	margin:auto; 
+	text-align: center;
+
+}
+form
+{
+	text-align: center;
+	 border-radius: 5px;
+	background-color: white; 
+ 	padding: 10px;
+
+ 	
+}
+input
+{
+	width: 400px;
+	padding: 12px 20px;
+	margin: 8px 0;	
+	border:none;	 
+	background-color: #183873;
+	color: #FFFB00;
+
+}
+select
+{
+	width: 50%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #183873;
+  color:#FFFB00;
+}
+button
+{
+ width: 250px;
+  background-color: #728ab5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration:0.3s;
+	}
+button:hover
+{
+	
+	background-color: black;
+	color:white;
+}
+a.loginfont:link
+{
+ color: #827DA1;
+ text-align:center;
+ font-weight: bold;
+}
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+section.footer
+{
+	font-family: Georgia, serif;
+	border-top-style: solid;
+}
+
